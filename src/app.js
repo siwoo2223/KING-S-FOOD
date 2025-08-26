@@ -38,18 +38,23 @@ class PhilippinesECommerceApp {
    * Initialize middleware stack
    */
   initializeMiddleware() {
-    // Security middleware
+    // Security middleware with relaxed CSP for mobile compatibility
     this.app.use(helmet({
       contentSecurityPolicy: {
         directives: {
-          defaultSrc: ["'self'"],
-          styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "https://cdnjs.cloudflare.com", "https://cdn.tailwindcss.com"],
-          fontSrc: ["'self'", "https://fonts.gstatic.com", "https://cdnjs.cloudflare.com"],
-          imgSrc: ["'self'", "data:", "https:", "blob:"],
-          scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://cdn.tailwindcss.com", "https://cdnjs.cloudflare.com"],
-          connectSrc: ["'self'", "https:"],
+          defaultSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
+          styleSrc: ["'self'", "'unsafe-inline'", "https:", "data:"],
+          fontSrc: ["'self'", "https:", "data:"],
+          imgSrc: ["'self'", "data:", "https:", "blob:", "*"],
+          scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https:", "data:"],
+          connectSrc: ["'self'", "https:", "wss:", "ws:"],
+          frameSrc: ["'self'", "https:"],
+          objectSrc: ["'none'"],
+          mediaSrc: ["'self'", "https:", "data:"],
+          childSrc: ["'self'", "https:"],
         },
       },
+      crossOriginEmbedderPolicy: false,
     }));
 
     // CORS configuration for Philippines timezone
