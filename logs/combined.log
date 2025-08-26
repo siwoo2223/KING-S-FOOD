@@ -1,0 +1,27 @@
+[2025-08-26 19:21:14] [INFO] 🇵🇭 Philippines E-Commerce Platform started! {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:21:14] [INFO] 🚀 Server running on port 3000 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:21:14] [INFO] 🌍 Environment: development {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:21:14] [INFO] ⏰ Timezone: Asia/Manila {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:21:14] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:21:14] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:21:14] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T19:23:59: 🇵🇭 [2025-08-26 19:23:59] [32minfo[39m: 🇵🇭 Philippines E-Commerce Platform started!
+[2025-08-26 19:23:59] [INFO] 🇵🇭 Philippines E-Commerce Platform started! {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T19:23:59: 🇵🇭 [2025-08-26 19:23:59] [32minfo[39m: 🚀 Server running on port 3000
+2025-08-26T19:23:59: 🇵🇭 [2025-08-26 19:23:59] [32minfo[39m: 🌍 Environment: development
+2025-08-26T19:23:59: 🇵🇭 [2025-08-26 19:23:59] [32minfo[39m: ⏰ Timezone: Asia/Manila
+2025-08-26T19:23:59: 🇵🇭 [2025-08-26 19:23:59] [32minfo[39m: 💱 Currency: PHP (₱)
+2025-08-26T19:23:59: 🇵🇭 [2025-08-26 19:23:59] [32minfo[39m: 📍 Health check: http://localhost:3000/health
+2025-08-26T19:23:59: 🇵🇭 [2025-08-26 19:23:59] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs
+[2025-08-26 19:23:59] [INFO] 🚀 Server running on port 3000 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:23:59] [INFO] 🌍 Environment: development {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:23:59] [INFO] ⏰ Timezone: Asia/Manila {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:23:59] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:23:59] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:23:59] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 19:24:20] [INFO] 10.12.159.74 - - [26/Aug/2025:11:24:20 +0000] "GET /health HTTP/1.1" 200 207 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T19:24:20: 🇵🇭 [2025-08-26 19:24:20] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:11:24:20 +0000] "GET /health HTTP/1.1" 200 207 "-" "curl/7.88.1"
+[2025-08-26 19:24:23] [INFO] 10.12.159.74 - - [26/Aug/2025:11:24:23 +0000] "GET / HTTP/1.1" 200 404 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T19:24:23: 🇵🇭 [2025-08-26 19:24:23] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:11:24:23 +0000] "GET / HTTP/1.1" 200 404 "-" "curl/7.88.1"
+[2025-08-26 19:24:26] [INFO] 10.12.159.74 - - [26/Aug/2025:11:24:26 +0000] "GET /api/v1 HTTP/1.1" 200 376 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T19:24:26: 🇵🇭 [2025-08-26 19:24:26] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:11:24:26 +0000] "GET /api/v1 HTTP/1.1" 200 376 "-" "curl/7.88.1"

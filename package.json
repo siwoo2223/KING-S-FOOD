@@ -1,0 +1,111 @@
+{
+  "name": "philippines-ecommerce-platform",
+  "version": "1.0.0",
+  "description": "Laravel-style Node.js e-commerce platform for Philippines market with ECOUNT ERP integration",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon src/app.js",
+    "start": "cross-env NODE_ENV=production node src/app.js",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --minify",
+    "build:js": "vite build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/ --ext .js",
+    "lint:fix": "eslint src/ --ext .js --fix",
+    "db:migrate": "npx prisma migrate dev",
+    "db:seed": "npx prisma db seed",
+    "db:reset": "npx prisma migrate reset",
+    "db:generate": "npx prisma generate",
+    "docs": "swagger-jsdoc -d swaggerDef.js src/routes/*.js -o docs/swagger.json"
+  },
+  "keywords": [
+    "ecommerce",
+    "philippines",
+    "laravel-style",
+    "nodejs",
+    "express",
+    "paymongo",
+    "gcash",
+    "ecount",
+    "erp"
+  ],
+  "author": "Philippines E-Commerce Team",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "bull": "^4.10.4",
+    "compression": "^1.8.1",
+    "connect-redis": "^7.1.0",
+    "cors": "^2.8.5",
+    "currency.js": "^2.0.4",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.4.0",
+    "express-flash": "^0.0.2",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.15.0",
+    "helmet": "^6.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.43",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.2",
+    "pm2": "^6.0.8",
+    "prisma": "^4.15.0",
+    "redis": "^4.6.6",
+    "sharp": "^0.32.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "babel-jest": "^29.5.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "postcss": "^8.4.23",
+    "supertest": "^6.3.3",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.7",
+    "vue": "^3.3.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "prisma": {
+    "seed": "node database/seeders/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/app.js",
+      "!src/config/**"
+    ]
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  }
+}
