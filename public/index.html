@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King's Food - 필리핀 한국 식자재 도매 전문</title>
+    <meta name="description" content="King's Food - 필리핀에서 한국 식자재를 도매가로! 김치, 라면, 고추장, 된장 등 모든 한국 식품을 합리적인 가격에 만나보세요.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Coupang Brand Colors */
+        :root {
+            --coupang-red: #ff6b35;
+            --coupang-dark-red: #e55a2b;
+            --coupang-light-red: #ff8866;
+            --kings-food-primary: #ff4444;
+            --kings-food-secondary: #ffa500;
+            --korean-gold: #ffd700;
+        }
+        
+        .bg-coupang { background-color: var(--coupang-red); }
+        .bg-coupang-dark { background-color: var(--coupang-dark-red); }
+        .text-coupang { color: var(--coupang-red); }
+        .border-coupang { border-color: var(--coupang-red); }
+        
+        .bg-kings-primary { background-color: var(--kings-food-primary); }
+        .bg-kings-secondary { background-color: var(--kings-food-secondary); }
+        .text-kings-primary { color: var(--kings-food-primary); }
+        .text-korean-gold { color: var(--korean-gold); }
+        
+        /* Korean Font Support */
+        body {
+            font-family: 'Segoe UI', 'Malgun Gothic', '맑은 고딕', sans-serif;
+        }
+        
+        /* Animations */
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .hover-scale:hover { transform: scale(1.05); transition: all 0.3s ease; }
+        
+        /* Mobile Optimizations */
+        @media (max-width: 768px) {
+            .mobile-hide { display: none; }
+            .mobile-text-sm { font-size: 0.875rem; }
+            .mobile-p-2 { padding: 0.5rem; }
+        }
+        
+        /* Coupang-style gradients */
+        .gradient-coupang {
+            background: linear-gradient(135deg, var(--coupang-red) 0%, var(--coupang-dark-red) 100%);
+        }
+        
+        .gradient-korean {
+            background: linear-gradient(135deg, var(--korean-gold) 0%, var(--kings-food-secondary) 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Top Banner (Coupang Style) -->
+    <div class="bg-gradient-to-r from-red-600 to-red-500 text-white text-center py-2 text-sm">
+        🇰🇷 한국 식자재 도매 전문 | 📱 모바일 앱 다운로드시 10% 할인 | 🚛 마닐라 당일배송 가능
+    </div>
+
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <!-- Top Header -->
+            <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                <div class="flex items-center space-x-4 text-sm text-gray-600">
+                    <span><i class="fas fa-map-marker-alt text-kings-primary"></i> 필리핀 배송</span>
+                    <span><i class="fas fa-phone text-kings-primary"></i> +63-917-XXX-XXXX</span>
+                </div>
+                <div class="flex items-center space-x-4 text-sm">
+                    <a href="#" class="hover:text-kings-primary">로그인</a>
+                    <a href="#" class="hover:text-kings-primary">회원가입</a>
+                    <div class="relative">
+                        <select class="bg-transparent text-gray-600 hover:text-kings-primary">
+                            <option>한국어</option>
+                            <option>English</option>
+                            <option>Filipino</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Header -->
+            <div class="flex items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="bg-gradient-korean p-3 rounded-lg">
+                        <i class="fas fa-crown text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-800">King's Food</h1>
+                        <p class="text-sm text-gray-500">한국 식자재 도매 전문</p>
+                    </div>
+                </div>
+                
+                <!-- Search Bar (Coupang Style) -->
+                <div class="flex-1 max-w-2xl mx-8 relative">
+                    <div class="relative">
+                        <input 
+                            type="text" 
+                            placeholder="김치, 라면, 고추장... 원하는 한국 식자재를 검색하세요"
+                            class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-kings-primary focus:outline-none text-lg"
+                        >
+                        <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-kings-primary text-white px-6 py-2 rounded-md hover:bg-red-600">
+                            <i class="fas fa-search"></i> 검색
+                        </button>
+                    </div>
+                    <!-- Popular Searches -->
+                    <div class="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-b-lg shadow-lg mt-1 hidden">
+                        <div class="p-3">
+                            <p class="text-sm text-gray-500 mb-2">인기 검색어</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 px-3 py-1 rounded-full text-sm hover:bg-gray-200 cursor-pointer">김치</span>
+                                <span class="bg-gray-100 px-3 py-1 rounded-full text-sm hover:bg-gray-200 cursor-pointer">신라면</span>
+                                <span class="bg-gray-100 px-3 py-1 rounded-full text-sm hover:bg-gray-200 cursor-pointer">고추장</span>
+                                <span class="bg-gray-100 px-3 py-1 rounded-full text-sm hover:bg-gray-200 cursor-pointer">된장</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Header Icons -->
+                <div class="flex items-center space-x-6">
+                    <!-- Wholesale Login -->
+                    <div class="text-center">
+                        <i class="fas fa-store text-2xl text-kings-primary"></i>
+                        <p class="text-xs text-gray-600">도매 로그인</p>
+                    </div>
+                    
+                    <!-- Favorites -->
+                    <div class="text-center relative">
+                        <i class="fas fa-heart text-2xl text-gray-400 hover:text-red-500"></i>
+                        <p class="text-xs text-gray-600">찜</p>
+                        <span class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
+                    </div>
+                    
+                    <!-- Cart -->
+                    <div class="text-center relative">
+                        <i class="fas fa-shopping-cart text-2xl text-kings-primary"></i>
+                        <p class="text-xs text-gray-600">장바구니</p>
+                        <span class="absolute -top-1 -right-1 bg-kings-primary text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">7</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <nav class="pb-4">
+                <div class="flex items-center space-x-8">
+                    <!-- Category Menu -->
+                    <div class="relative group">
+                        <button class="flex items-center space-x-2 bg-kings-primary text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                            <i class="fas fa-bars"></i>
+                            <span>전체 카테고리</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        
+                        <!-- Dropdown Menu -->
+                        <div class="absolute top-full left-0 bg-white border border-gray-200 rounded-lg shadow-lg w-64 mt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                            <div class="p-4">
+                                <div class="space-y-3">
+                                    <a href="#" class="flex items-center space-x-3 hover:text-kings-primary">
+                                        <i class="fas fa-leaf text-green-500"></i>
+                                        <span>채소/과일</span>
+                                    </a>
+                                    <a href="#" class="flex items-center space-x-3 hover:text-kings-primary">
+                                        <i class="fas fa-fish text-blue-500"></i>
+                                        <span>수산/해산물</span>
+                                    </a>
+                                    <a href="#" class="flex items-center space-x-3 hover:text-kings-primary">
+                                        <i class="fas fa-drumstick-bite text-red-500"></i>
+                                        <span>정육/계란</span>
+                                    </a>
+                                    <a href="#" class="flex items-center space-x-3 hover:text-kings-primary">
+                                        <i class="fas fa-bowl-rice text-yellow-500"></i>
+                                        <span>쌀/잡곡</span>
+                                    </a>
+                                    <a href="#" class="flex items-center space-x-3 hover:text-kings-primary">
+                                        <i class="fas fa-bottle-droplet text-purple-500"></i>
+                                        <span>조미료/양념</span>
+                                    </a>
+                                    <a href="#" class="flex items-center space-x-3 hover:text-kings-primary">
+                                        <i class="fas fa-cookie-bite text-orange-500"></i>
+                                        <span>과자/간식</span>
+                                    </a>
+                                    <a href="#" class="flex items-center space-x-3 hover:text-kings-primary">
+                                        <i class="fas fa-mug-hot text-brown-500"></i>
+                                        <span>차/음료</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Menu -->
+                    <div class="flex items-center space-x-8 text-gray-700">
+                        <a href="#" class="hover:text-kings-primary font-medium">🔥 특가상품</a>
+                        <a href="#" class="hover:text-kings-primary">🆕 신상품</a>
+                        <a href="#" class="hover:text-kings-primary">🇰🇷 한국직송</a>
+                        <a href="#" class="hover:text-kings-primary">📦 대량주문</a>
+                        <a href="#" class="hover:text-kings-primary">📍 매장찾기</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Banner Carousel (Coupang Style) -->
+    <section class="relative bg-white">
+        <div class="container mx-auto">
+            <div class="relative h-80 overflow-hidden rounded-lg">
+                <!-- Banner 1 -->
+                <div class="absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500 text-white flex items-center">
+                    <div class="container mx-auto px-8">
+                        <div class="flex items-center justify-between">
+                            <div class="space-y-4">
+                                <h2 class="text-4xl font-bold">🇰🇷 한국 식자재 도매 전문</h2>
+                                <p class="text-xl">정통 한국 식품을 필리핀에서 만나보세요</p>
+                                <div class="flex items-center space-x-4">
+                                    <span class="bg-white text-red-500 px-4 py-2 rounded-full font-bold">최대 50% 할인</span>
+                                    <span class="bg-yellow-400 text-black px-4 py-2 rounded-full font-bold">무료배송</span>
+                                </div>
+                                <button class="bg-white text-red-500 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 text-lg">
+                                    지금 쇼핑하기 <i class="fas fa-arrow-right ml-2"></i>
+                                </button>
+                            </div>
+                            <div class="mobile-hide">
+                                <img src="/api/placeholder/400/300" alt="Korean Food" class="w-80 h-60 object-cover rounded-lg shadow-lg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Categories (Coupang Style) -->
+    <section class="bg-white py-8">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold mb-6 text-center">🛒 인기 카테고리</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-red-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-pepper-hot text-3xl text-red-500"></i>
+                    </div>
+                    <p class="font-medium">김치/젓갈</p>
+                    <p class="text-sm text-gray-500">2,440개</p>
+                </div>
+                
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-orange-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-bowl-food text-3xl text-orange-500"></i>
+                    </div>
+                    <p class="font-medium">라면/면류</p>
+                    <p class="text-sm text-gray-500">1,876개</p>
+                </div>
+                
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-green-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-leaf text-3xl text-green-500"></i>
+                    </div>
+                    <p class="font-medium">채소/나물</p>
+                    <p class="text-sm text-gray-500">3,245개</p>
+                </div>
+                
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-blue-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-fish text-3xl text-blue-500"></i>
+                    </div>
+                    <p class="font-medium">생선/해산물</p>
+                    <p class="text-sm text-gray-500">1,543개</p>
+                </div>
+                
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-purple-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-wine-bottle text-3xl text-purple-500"></i>
+                    </div>
+                    <p class="font-medium">조미료/장류</p>
+                    <p class="text-sm text-gray-500">987개</p>
+                </div>
+                
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-yellow-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-cookie text-3xl text-yellow-500"></i>
+                    </div>
+                    <p class="font-medium">과자/스낵</p>
+                    <p class="text-sm text-gray-500">2,156개</p>
+                </div>
+                
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-indigo-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-coffee text-3xl text-indigo-500"></i>
+                    </div>
+                    <p class="font-medium">차/음료</p>
+                    <p class="text-sm text-gray-500">1,432개</p>
+                </div>
+                
+                <div class="text-center hover-scale cursor-pointer">
+                    <div class="bg-pink-100 p-4 rounded-lg mb-2">
+                        <i class="fas fa-ice-cream text-3xl text-pink-500"></i>
+                    </div>
+                    <p class="font-medium">냉동식품</p>
+                    <p class="text-sm text-gray-500">876개</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Today's Deals (Coupang Style) -->
+    <section class="bg-gray-50 py-8">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-lg p-6">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold">🔥 오늘의 특가</h3>
+                    <div class="flex items-center space-x-2 text-kings-primary">
+                        <i class="fas fa-clock"></i>
+                        <span class="font-medium">23:45:12 남음</span>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    <!-- Product Card 1 -->
+                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="relative mb-3">
+                            <img src="/api/placeholder/200/200" alt="김치" class="w-full h-32 object-cover rounded">
+                            <span class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">50% OFF</span>
+                        </div>
+                        <h4 class="font-medium text-sm mb-1">맛있는 배추김치 5kg</h4>
+                        <p class="text-xs text-gray-500 mb-2">King's Food 직수입</p>
+                        <div class="space-y-1">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-lg font-bold text-kings-primary">₱899</span>
+                                <span class="text-sm text-gray-400 line-through">₱1,798</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <div class="flex text-yellow-400 text-xs">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(547)</span>
+                            </div>
+                            <p class="text-xs text-green-600">✓ 당일배송 가능</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 2 -->
+                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="relative mb-3">
+                            <img src="/api/placeholder/200/200" alt="신라면" class="w-full h-32 object-cover rounded">
+                            <span class="absolute top-2 left-2 bg-orange-500 text-white text-xs px-2 py-1 rounded">30% OFF</span>
+                        </div>
+                        <h4 class="font-medium text-sm mb-1">농심 신라면 40개들이</h4>
+                        <p class="text-xs text-gray-500 mb-2">한국 직수입 정품</p>
+                        <div class="space-y-1">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-lg font-bold text-kings-primary">₱1,299</span>
+                                <span class="text-sm text-gray-400 line-through">₱1,856</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <div class="flex text-yellow-400 text-xs">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(1,203)</span>
+                            </div>
+                            <p class="text-xs text-green-600">✓ 무료배송</p>
+                        </div>
+                    </div>
+                    
+                    <!-- More products... -->
+                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="relative mb-3">
+                            <img src="/api/placeholder/200/200" alt="고추장" class="w-full h-32 object-cover rounded">
+                            <span class="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">BEST</span>
+                        </div>
+                        <h4 class="font-medium text-sm mb-1">순창 고추장 3kg 대용량</h4>
+                        <p class="text-xs text-gray-500 mb-2">업소용 대용량</p>
+                        <div class="space-y-1">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-lg font-bold text-kings-primary">₱599</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <div class="flex text-yellow-400 text-xs">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(892)</span>
+                            </div>
+                            <p class="text-xs text-blue-600">✓ 도매할인 적용</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-6">
+                    <button class="bg-kings-primary text-white px-8 py-3 rounded-lg hover:bg-red-600 font-medium">
+                        특가상품 더보기 <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Download Banner -->
+    <section class="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-8 md:hidden">
+        <div class="container mx-auto px-4 text-center">
+            <div class="space-y-4">
+                <h3 class="text-xl font-bold">📱 King's Food 앱 다운로드</h3>
+                <p>앱에서만 받을 수 있는 특별 할인 혜택!</p>
+                <div class="flex justify-center space-x-4">
+                    <button class="bg-black px-4 py-2 rounded-lg">
+                        <i class="fab fa-apple mr-2"></i>App Store
+                    </button>
+                    <button class="bg-green-600 px-4 py-2 rounded-lg">
+                        <i class="fab fa-google-play mr-2"></i>Google Play
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="bg-gradient-korean p-2 rounded">
+                            <i class="fas fa-crown text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold">King's Food</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">필리핀 최대 한국 식자재 도매 전문업체</p>
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>Manila, Philippines</p>
+                        <p><i class="fas fa-phone mr-2"></i>+63-917-XXX-XXXX</p>
+                        <p><i class="fas fa-envelope mr-2"></i>info@kingsfood.ph</p>
+                    </div>
+                </div>
+                
+                <!-- Customer Service -->
+                <div>
+                    <h4 class="font-bold mb-4">고객센터</h4>
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <a href="#" class="hover:text-white">주문/배송 문의</a>
+                        <a href="#" class="hover:text-white">취소/교환/반품</a>
+                        <a href="#" class="hover:text-white">대량주문 상담</a>
+                        <a href="#" class="hover:text-white">FAQ</a>
+                    </div>
+                </div>
+                
+                <!-- Company -->
+                <div>
+                    <h4 class="font-bold mb-4">회사소개</h4>
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <a href="#" class="hover:text-white">회사소개</a>
+                        <a href="#" class="hover:text-white">이용약관</a>
+                        <a href="#" class="hover:text-white">개인정보처리방침</a>
+                        <a href="#" class="hover:text-white">사업자정보</a>
+                    </div>
+                </div>
+                
+                <!-- Social & Apps -->
+                <div>
+                    <h4 class="font-bold mb-4">소셜미디어</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-2xl hover:text-blue-500"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-2xl hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-2xl hover:text-green-500"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <p class="text-sm text-gray-300 mb-2">모바일 앱</p>
+                    <div class="space-y-2">
+                        <img src="/api/placeholder/120/40" alt="App Store" class="h-8">
+                        <img src="/api/placeholder/120/40" alt="Google Play" class="h-8">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-600 pt-8 mt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2025 King's Food Philippines. All rights reserved. | 사업자등록번호: XXX-XX-XXXXX</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button (Mobile) -->
+    <div class="fixed bottom-4 right-4 md:hidden z-50">
+        <button class="bg-kings-primary text-white p-4 rounded-full shadow-lg hover:bg-red-600">
+            <i class="fas fa-shopping-cart text-xl"></i>
+        </button>
+    </div>
+
+    <!-- JavaScript for interactions -->
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            // Search suggestions
+            const searchInput = document.querySelector('input[type="text"]');
+            const searchSuggestions = document.querySelector('.absolute.top-full');
+            
+            searchInput.addEventListener('focus', function() {
+                searchSuggestions.classList.remove('hidden');
+            });
+            
+            searchInput.addEventListener('blur', function() {
+                setTimeout(() => {
+                    searchSuggestions.classList.add('hidden');
+                }, 200);
+            });
+            
+            // Smooth scrolling for internal links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Add to cart animation
+            document.querySelectorAll('.cursor-pointer').forEach(card => {
+                card.addEventListener('click', function() {
+                    // Add animation or redirect to product page
+                    console.log('Product clicked:', this);
+                });
+            });
+        });
+        
+        // Live time update for deals
+        function updateDealTimer() {
+            const timerElement = document.querySelector('.text-kings-primary .fa-clock').nextSibling;
+            if (timerElement) {
+                const now = new Date();
+                const endOfDay = new Date();
+                endOfDay.setHours(23, 59, 59, 999);
+                
+                const timeDiff = endOfDay - now;
+                const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+                const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+                
+                if (timerElement.textContent) {
+                    timerElement.textContent = ` ${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')} 남음`;
+                }
+            }
+        }
+        
+        // Update timer every second
+        setInterval(updateDealTimer, 1000);
+        updateDealTimer(); // Initial call
+    </script>
+</body>
+</html>

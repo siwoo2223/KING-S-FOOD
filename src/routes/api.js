@@ -59,4 +59,7 @@ router.use('/compliance', require('./api/compliance'));
 // 유틸리티 라우트
 router.use('/utils', require('./api/utils'));
 
+// 한국 식자재 전용 라우트
+router.use('/korean-products', require('./api/korean-products'));
+
 module.exports = router;

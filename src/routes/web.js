@@ -14,22 +14,9 @@ const serveStatic = (filePath, contentType = 'text/html') => {
   };
 };
 
-// 홈페이지 (고객 쇼핑몰)
+// 홈페이지 (King's Food 쇼핑몰)
 router.get('/', (req, res) => {
-  res.json({
-    message: '🇵🇭 필리핀 전자상거래 플랫폼에 오신 것을 환영합니다!',
-    features: [
-      '🛒 온라인 쇼핑몰',
-      '💳 필리핀 현지 결제 (PayMongo, Xendit, Dragonpay)',
-      '📱 GCash, BDO 연동 (2차 개발)',
-      '🔄 ECOUNT ERP 자동 동기화',
-      '📋 BIR 전자영수증 발행',
-      '🔒 DPA 개인정보보호 준수'
-    ],
-    currency: 'PHP (₱)',
-    timezone: 'Asia/Manila',
-    version: '1.0.0'
-  });
+  res.sendFile(path.join(__dirname, '../../public/index.html'));
 });
 
 // 상품 목록

@@ -25,3 +25,119 @@
 2025-08-26T19:24:23: 🇵🇭 [2025-08-26 19:24:23] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:11:24:23 +0000] "GET / HTTP/1.1" 200 404 "-" "curl/7.88.1"
 [2025-08-26 19:24:26] [INFO] 10.12.159.74 - - [26/Aug/2025:11:24:26 +0000] "GET /api/v1 HTTP/1.1" 200 376 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
 2025-08-26T19:24:26: 🇵🇭 [2025-08-26 19:24:26] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:11:24:26 +0000] "GET /api/v1 HTTP/1.1" 200 376 "-" "curl/7.88.1"
+[2025-08-26 20:55:11] [INFO] 10.12.159.74 - - [26/Aug/2025:12:55:11 +0000] "GET / HTTP/1.1" 200 404 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:55:11: 🇵🇭 [2025-08-26 20:55:11] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:55:11 +0000] "GET / HTTP/1.1" 200 404 "-" "curl/7.88.1"
+[2025-08-26 20:55:18] [INFO] 10.12.159.74 - - [26/Aug/2025:12:55:18 +0000] "GET /health HTTP/1.1" 200 207 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:55:18: 🇵🇭 [2025-08-26 20:55:18] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:55:18 +0000] "GET /health HTTP/1.1" 200 207 "-" "curl/7.88.1"
+[2025-08-26 20:55:28] [INFO] 10.12.159.74 - - [26/Aug/2025:12:55:28 +0000] "GET /api/v1 HTTP/1.1" 200 376 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:55:28: 🇵🇭 [2025-08-26 20:55:28] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:55:28 +0000] "GET /api/v1 HTTP/1.1" 200 376 "-" "curl/7.88.1"
+[2025-08-26 20:55:34] [INFO] 10.12.159.74 - - [26/Aug/2025:12:55:34 +0000] "GET /api/v1/payments/methods HTTP/1.1" 200 1562 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:55:34: 🇵🇭 [2025-08-26 20:55:34] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:55:34 +0000] "GET /api/v1/payments/methods HTTP/1.1" 200 1562 "-" "curl/7.88.1"
+[2025-08-26 20:55:41] [INFO] 10.12.159.74 - - [26/Aug/2025:12:55:41 +0000] "POST /api/v1/payments/create HTTP/1.1" 201 491 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:55:41: 🇵🇭 [2025-08-26 20:55:41] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:55:41 +0000] "POST /api/v1/payments/create HTTP/1.1" 201 491 "-" "curl/7.88.1"
+[2025-08-26 20:55:53] [INFO] 10.12.159.74 - - [26/Aug/2025:12:55:53 +0000] "GET /api/v1/ecount/status HTTP/1.1" 200 627 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:55:53: 🇵🇭 [2025-08-26 20:55:53] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:55:53 +0000] "GET /api/v1/ecount/status HTTP/1.1" 200 627 "-" "curl/7.88.1"
+[2025-08-26 20:55:58] [INFO] 10.12.159.74 - - [26/Aug/2025:12:55:58 +0000] "POST /api/v1/ecount/sync HTTP/1.1" 202 341 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:55:58: 🇵🇭 [2025-08-26 20:55:58] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:55:58 +0000] "POST /api/v1/ecount/sync HTTP/1.1" 202 341 "-" "curl/7.88.1"
+[2025-08-26 20:56:04] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:04 +0000] "GET /api/v1/compliance/bir/status HTTP/1.1" 200 693 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:04: 🇵🇭 [2025-08-26 20:56:04] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:04 +0000] "GET /api/v1/compliance/bir/status HTTP/1.1" 200 693 "-" "curl/7.88.1"
+[2025-08-26 20:56:10] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:10 +0000] "POST /api/v1/compliance/bir/receipts HTTP/1.1" 201 589 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:10: 🇵🇭 [2025-08-26 20:56:10] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:10 +0000] "POST /api/v1/compliance/bir/receipts HTTP/1.1" 201 589 "-" "curl/7.88.1"
+[2025-08-26 20:56:14] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:14 +0000] "GET /api/v1/compliance/dpa/status HTTP/1.1" 200 697 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:14: 🇵🇭 [2025-08-26 20:56:14] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:14 +0000] "GET /api/v1/compliance/dpa/status HTTP/1.1" 200 697 "-" "curl/7.88.1"
+[2025-08-26 20:56:19] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:19 +0000] "GET /api/v1/products?category=electronics&price_min=500&price_max=2000 HTTP/1.1" 200 318 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:19: 🇵🇭 [2025-08-26 20:56:19] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:19 +0000] "GET /api/v1/products?category=electronics&price_min=500&price_max=2000 HTTP/1.1" 200 318 "-" "curl/7.88.1"
+[2025-08-26 20:56:25] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:25 +0000] "POST /api/v1/orders HTTP/1.1" 201 403 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:25: 🇵🇭 [2025-08-26 20:56:25] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:25 +0000] "POST /api/v1/orders HTTP/1.1" 201 403 "-" "curl/7.88.1"
+[2025-08-26 20:56:29] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:29 +0000] "GET /api/v1/admin/dashboard HTTP/1.1" 200 668 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:29: 🇵🇭 [2025-08-26 20:56:29] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:29 +0000] "GET /api/v1/admin/dashboard HTTP/1.1" 200 668 "-" "curl/7.88.1"
+[2025-08-26 20:56:34] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:34 +0000] "GET /api/v1/utils/regions HTTP/1.1" 200 575 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:34: 🇵🇭 [2025-08-26 20:56:34] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:34 +0000] "GET /api/v1/utils/regions HTTP/1.1" 200 575 "-" "curl/7.88.1"
+[2025-08-26 20:56:40] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:40 +0000] "POST /api/v1/utils/shipping/calculate HTTP/1.1" 200 853 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:40: 🇵🇭 [2025-08-26 20:56:40] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:40 +0000] "POST /api/v1/utils/shipping/calculate HTTP/1.1" 200 853 "-" "curl/7.88.1"
+[2025-08-26 20:56:45] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:45 +0000] "GET /api/v1/utils/business-hours HTTP/1.1" 200 545 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:45: 🇵🇭 [2025-08-26 20:56:45] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:45 +0000] "GET /api/v1/utils/business-hours HTTP/1.1" 200 545 "-" "curl/7.88.1"
+[2025-08-26 20:56:51] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:51 +0000] "GET / HTTP/1.1" 200 404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:51: 🇵🇭 [2025-08-26 20:56:51] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:51 +0000] "GET / HTTP/1.1" 200 404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 20:56:51] [ERROR] [0497d6d3-2fb6-4037-9621-349c795ae5fd] Application error
+2025-08-26T20:56:51: 🇵🇭 [2025-08-26 20:56:51] [0497d6d3-2fb6-4037-9621-349c795ae5fd] [31merror[39m: Application error
+[2025-08-26 20:56:51] [INFO] 10.12.159.74 - - [26/Aug/2025:12:56:51 +0000] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:56:51: 🇵🇭 [2025-08-26 20:56:51] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:56:51 +0000] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 20:57:12] [INFO] 10.12.159.74 - - [26/Aug/2025:12:57:12 +0000] "GET / HTTP/1.1" 200 404 "-" "Mozilla/5.0 (iPad; CPU OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/604.1 /iPhone,ios/18.5 FromApp/genspark/genspark_ios/PushAppearanceStyle genspark_ios/1.6.4 bundleID/ai.mainfunc.genspark build/151" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T20:57:12: 🇵🇭 [2025-08-26 20:57:12] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:12:57:12 +0000] "GET / HTTP/1.1" 200 404 "-" "Mozilla/5.0 (iPad; CPU OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/604.1 /iPhone,ios/18.5 FromApp/genspark/genspark_ios/PushAppearanceStyle genspark_ios/1.6.4 bundleID/ai.mainfunc.genspark build/151"
+[2025-08-26 21:22:24] [INFO] Received SIGINT. Starting graceful shutdown... {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: Received SIGINT. Starting graceful shutdown...
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: 🇵🇭 Philippines E-Commerce Platform started!
+[2025-08-26 21:22:24] [INFO] 🇵🇭 Philippines E-Commerce Platform started! {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: 🚀 Server running on port 3000
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: 🌍 Environment: development
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: ⏰ Timezone: Asia/Manila
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: 💱 Currency: PHP (₱)
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: 📍 Health check: http://localhost:3000/health
+2025-08-26T21:22:24: 🇵🇭 [2025-08-26 21:22:24] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs
+[2025-08-26 21:22:24] [INFO] 🚀 Server running on port 3000 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:22:24] [INFO] 🌍 Environment: development {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:22:24] [INFO] ⏰ Timezone: Asia/Manila {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:22:24] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:22:24] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:22:24] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:22:39] [INFO] 10.12.159.74 - - [26/Aug/2025:13:22:39 +0000] "GET / HTTP/1.1" 200 30651 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:22:39: 🇵🇭 [2025-08-26 21:22:39] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:22:39 +0000] "GET / HTTP/1.1" 200 30651 "-" "curl/7.88.1"
+[2025-08-26 21:22:45] [INFO] 10.12.159.74 - - [26/Aug/2025:13:22:45 +0000] "GET /api/v1/korean-products/categories HTTP/1.1" 200 3819 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:22:45: 🇵🇭 [2025-08-26 21:22:45] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:22:45 +0000] "GET /api/v1/korean-products/categories HTTP/1.1" 200 3819 "-" "curl/7.88.1"
+[2025-08-26 21:22:49] [INFO] 10.12.159.74 - - [26/Aug/2025:13:22:49 +0000] "GET /api/v1/korean-products/popular HTTP/1.1" 200 2925 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:22:49: 🇵🇭 [2025-08-26 21:22:49] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:22:49 +0000] "GET /api/v1/korean-products/popular HTTP/1.1" 200 2925 "-" "curl/7.88.1"
+[2025-08-26 21:22:59] [INFO] 10.12.159.74 - - [26/Aug/2025:13:22:59 +0000] "GET /api/v1/korean-products/wholesale-prices HTTP/1.1" 200 1269 "-" "curl/7.88.1" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:22:59: 🇵🇭 [2025-08-26 21:22:59] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:22:59 +0000] "GET /api/v1/korean-products/wholesale-prices HTTP/1.1" 200 1269 "-" "curl/7.88.1"
+[2025-08-26 21:23:06] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:06] [ERROR] [2629ef98-deec-42a6-9a00-a37a440f54e2] Application error
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [2629ef98-deec-42a6-9a00-a37a440f54e2] [31merror[39m: Application error
+[2025-08-26 21:23:06] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /api/placeholder/400/300 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /api/placeholder/400/300 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:06] [ERROR] [191666e0-2ecb-43aa-a214-fbf032bfb878] Application error
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [191666e0-2ecb-43aa-a214-fbf032bfb878] [31merror[39m: Application error
+[2025-08-26 21:23:06] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /api/placeholder/200/200 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /api/placeholder/200/200 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:06] [ERROR] [0627fac8-410f-4f42-bfda-01aaed56619b] Application error
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [0627fac8-410f-4f42-bfda-01aaed56619b] [31merror[39m: Application error
+[2025-08-26 21:23:06] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /api/placeholder/120/40 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /api/placeholder/120/40 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:06] [ERROR] [3a957703-af1a-4b0b-b8ff-4696f9c1bcfa] Application error
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [3a957703-af1a-4b0b-b8ff-4696f9c1bcfa] [31merror[39m: Application error
+[2025-08-26 21:23:06] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:06: 🇵🇭 [2025-08-26 21:23:06] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:06 +0000] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:25] [INFO] Received SIGINT. Starting graceful shutdown... {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: Received SIGINT. Starting graceful shutdown...
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: 🇵🇭 Philippines E-Commerce Platform started!
+[2025-08-26 21:23:25] [INFO] 🇵🇭 Philippines E-Commerce Platform started! {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: 🚀 Server running on port 3000
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: 🌍 Environment: development
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: ⏰ Timezone: Asia/Manila
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: 💱 Currency: PHP (₱)
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: 📍 Health check: http://localhost:3000/health
+2025-08-26T21:23:25: 🇵🇭 [2025-08-26 21:23:25] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs
+[2025-08-26 21:23:25] [INFO] 🚀 Server running on port 3000 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:23:25] [INFO] 🌍 Environment: development {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:23:25] [INFO] ⏰ Timezone: Asia/Manila {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:23:25] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:23:25] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:23:25] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 21:23:44] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:44] [ERROR] [2db29d80-9d8d-4e8b-9f5a-518e36cfb63a] Application error
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [2db29d80-9d8d-4e8b-9f5a-518e36cfb63a] [31merror[39m: Application error
+[2025-08-26 21:23:44] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /api/placeholder/200/200 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /api/placeholder/200/200 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:44] [ERROR] [5ed63e38-32b6-4130-9e99-b5c432fe1c40] Application error
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [5ed63e38-32b6-4130-9e99-b5c432fe1c40] [31merror[39m: Application error
+[2025-08-26 21:23:44] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /api/placeholder/400/300 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /api/placeholder/400/300 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:44] [ERROR] [14cf8c67-24be-48f9-abff-69791943e3a3] Application error
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [14cf8c67-24be-48f9-abff-69791943e3a3] [31merror[39m: Application error
+[2025-08-26 21:23:44] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /api/placeholder/120/40 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /api/placeholder/120/40 HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
+[2025-08-26 21:23:44] [ERROR] [2995645c-6242-478b-b6e8-3188a454dc77] Application error
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [2995645c-6242-478b-b6e8-3188a454dc77] [31merror[39m: Application error
+[2025-08-26 21:23:44] [INFO] 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36" {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T21:23:44: 🇵🇭 [2025-08-26 21:23:44] [32minfo[39m: 10.12.159.74 - - [26/Aug/2025:13:23:44 +0000] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.0.0 Safari/537.36"
