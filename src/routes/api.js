@@ -62,4 +62,10 @@ router.use('/utils', require('./api/utils'));
 // 한국 식자재 전용 라우트
 router.use('/korean-products', require('./api/korean-products'));
 
+// 재고 관리 라우트
+router.use('/inventory', require('./api/inventory-upload'));
+
+// 이미지 처리 라우트
+router.use('/images', require('./api/image-scraper'));
+
 module.exports = router;

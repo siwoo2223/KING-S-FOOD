@@ -614,4 +614,200 @@ router.get('/brands', (req, res) => {
   });
 });
 
+// 실제 재고 데이터 기반 상품 목록
+router.get('/inventory-products', async (req, res) => {
+  try {
+    const { category, limit = 20, offset = 0 } = req.query;
+    const inventoryData = await loadInventoryData();
+    
+    if (!inventoryData || inventoryData.length === 0) {
+      return res.json({
+        success: false,
+        message: '재고 데이터를 찾을 수 없습니다. Excel 파일을 먼저 업로드해주세요.',
+        data: { products: [], total: 0 }
+      });
+    }
+    
+    let filteredProducts = inventoryData;
+    
+    // 카테고리 필터링
+    if (category) {
+      filteredProducts = filteredProducts.filter(product => product.category === category);
+    }
+    
+    // 페이지네이션
+    const startIndex = parseInt(offset);
+    const limitNum = parseInt(limit);
+    const paginatedProducts = filteredProducts.slice(startIndex, startIndex + limitNum);
+    
+    // API 응답 형식으로 변환
+    const formattedProducts = paginatedProducts.map(product => ({
+      id: `inv-${product.id}`,
+      name: product.name,
+      name_en: product.nameEn || product.name,
+      brand: product.brand || 'King\'s Food',
+      category: product.category || 'others',
+      images: product.images || [product.primaryImage || `https://via.placeholder.com/300x300/FF6B6B/FFFFFF?text=${encodeURIComponent(product.name.substring(0, 10))}`],
+      price: {
+        retail: product.retailPrice || 0,
+        wholesale: product.wholesalePrice || Math.round((product.retailPrice || 0) * 0.8),
+        currency: 'PHP',
+        formatted_retail: `₱${(product.retailPrice || 0).toLocaleString()}`,
+        formatted_wholesale: `₱${(product.wholesalePrice || Math.round((product.retailPrice || 0) * 0.8)).toLocaleString()}`,
+        discount_percent: product.retailPrice > 0 ? Math.round(((product.retailPrice - (product.wholesalePrice || Math.round(product.retailPrice * 0.8))) / product.retailPrice) * 100) : 0
+      },
+      description: product.description || '',
+      unit: product.unit || 'EA',
+      weight: product.weight || 0,
+      origin: product.origin || '한국',
+      supplier: product.supplier || 'King\'s Food',
+      barcode: product.barcode,
+      tags: product.tags || [],
+      rating: {
+        average: (4.0 + Math.random() * 1.0).toFixed(1),
+        count: Math.floor(Math.random() * 500) + 10
+      },
+      stock: {
+        available: product.status === 'available',
+        quantity: product.stock || 0,
+        min_order: product.minOrder || 1,
+        warehouse: 'Manila'
+      },
+      wholesale: {
+        min_quantity: product.minOrder || 1,
+        bulk_discounts: [
+          { min_qty: product.minOrder || 1, discount: 5 },
+          { min_qty: (product.minOrder || 1) * 5, discount: 10 },
+          { min_qty: (product.minOrder || 1) * 10, discount: 15 }
+        ]
+      },
+      shipping: {
+        same_day: product.stock > 10,
+        free_shipping: (product.wholesalePrice || 0) > 500,
+        areas: ['Metro Manila', 'Cebu', 'Davao']
+      },
+      created_at: product.createdAt,
+      updated_at: product.updatedAt
+    }));
+    
+    // 카테고리별 통계
+    const categoryStats = {};
+    inventoryData.forEach(product => {
+      const cat = product.category || 'others';
+      if (!categoryStats[cat]) {
+        categoryStats[cat] = { total: 0, available: 0 };
+      }
+      categoryStats[cat].total++;
+      if (product.status === 'available') {
+        categoryStats[cat].available++;
+      }
+    });
+    
+    res.json({
+      success: true,
+      message: '실제 재고 데이터 기반 상품 목록',
+      data: {
+        products: formattedProducts,
+        pagination: {
+          total: filteredProducts.length,
+          offset: startIndex,
+          limit: limitNum,
+          has_more: (startIndex + limitNum) < filteredProducts.length
+        },
+        filters: {
+          category: category || 'all'
+        },
+        statistics: {
+          total_products: inventoryData.length,
+          total_available: inventoryData.filter(p => p.status === 'available').length,
+          total_categories: Object.keys(categoryStats).length,
+          category_breakdown: categoryStats
+        },
+        source: 'live_inventory',
+        last_updated: new Date().toISOString()
+      }
+    });
+    
+  } catch (error) {
+    logger.error('Inventory products API error:', error);
+    res.status(500).json({
+      success: false,
+      message: '상품 데이터 조회 중 오류가 발생했습니다',
+      error: error.message
+    });
+  }
+});
+
+// 재고 데이터 기반 카테고리별 상품 수
+router.get('/inventory-categories', async (req, res) => {
+  try {
+    const inventoryData = await loadInventoryData();
+    
+    if (!inventoryData || inventoryData.length === 0) {
+      return res.json({
+        success: false,
+        message: '재고 데이터를 찾을 수 없습니다',
+        data: { categories: [] }
+      });
+    }
+    
+    const categoryMap = {
+      'kimchi': { name: '김치/젓갈', icon: 'fas fa-pepper-hot', color: 'red' },
+      'noodles': { name: '라면/면류', icon: 'fas fa-bowl-food', color: 'orange' },
+      'sauces': { name: '장류/양념', icon: 'fas fa-jar', color: 'brown' },
+      'snacks': { name: '과자/간식', icon: 'fas fa-cookie', color: 'yellow' },
+      'beverages': { name: '음료/차', icon: 'fas fa-mug-hot', color: 'blue' },
+      'frozen': { name: '냉동식품', icon: 'fas fa-snowflake', color: 'cyan' },
+      'vegetables': { name: '채소/나물', icon: 'fas fa-leaf', color: 'green' },
+      'seafood': { name: '해산물', icon: 'fas fa-fish', color: 'teal' },
+      'others': { name: '기타', icon: 'fas fa-box', color: 'gray' }
+    };
+    
+    const categoryStats = {};
+    inventoryData.forEach(product => {
+      const cat = product.category || 'others';
+      if (!categoryStats[cat]) {
+        categoryStats[cat] = { total: 0, available: 0, brands: new Set() };
+      }
+      categoryStats[cat].total++;
+      if (product.status === 'available') {
+        categoryStats[cat].available++;
+      }
+      if (product.brand) {
+        categoryStats[cat].brands.add(product.brand);
+      }
+    });
+    
+    const categories = Object.entries(categoryStats).map(([categoryId, stats]) => ({
+      id: categoryId,
+      name: categoryMap[categoryId]?.name || categoryId,
+      icon: categoryMap[categoryId]?.icon || 'fas fa-box',
+      color: categoryMap[categoryId]?.color || 'gray',
+      product_count: stats.total,
+      available_count: stats.available,
+      brand_count: stats.brands.size,
+      brands: Array.from(stats.brands)
+    }));
+    
+    res.json({
+      success: true,
+      message: '실제 재고 데이터 기반 카테고리 정보',
+      data: {
+        categories: categories.sort((a, b) => b.product_count - a.product_count),
+        total_products: inventoryData.length,
+        total_available: inventoryData.filter(p => p.status === 'available').length,
+        source: 'live_inventory'
+      }
+    });
+    
+  } catch (error) {
+    logger.error('Inventory categories API error:', error);
+    res.status(500).json({
+      success: false,
+      message: '카테고리 데이터 조회 중 오류가 발생했습니다',
+      error: error.message
+    });
+  }
+});
+
 module.exports = router;

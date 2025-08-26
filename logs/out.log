@@ -85,3 +85,11 @@
 2025-08-26T22:10:42: 🇵🇭 [2025-08-26 22:10:42] [32minfo[39m: 💱 Currency: PHP (₱)
 2025-08-26T22:10:42: 🇵🇭 [2025-08-26 22:10:42] [32minfo[39m: 📍 Health check: http://localhost:3000/health
 2025-08-26T22:10:42: 🇵🇭 [2025-08-26 22:10:42] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs
+2025-08-26T22:18:26: 🇵🇭 [2025-08-26 22:18:26] [32minfo[39m: Received SIGINT. Starting graceful shutdown...
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 🇵🇭 Philippines E-Commerce Platform started!
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 🚀 Server running on port 3000
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 🌍 Environment: development
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: ⏰ Timezone: Asia/Manila
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 💱 Currency: PHP (₱)
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 📍 Health check: http://localhost:3000/health
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs

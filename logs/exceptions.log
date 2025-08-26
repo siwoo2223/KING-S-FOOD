@@ -1,0 +1,300 @@
+[2025-08-26 22:18:26] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:26 GMT+0800 (Philippine Standard Time)","process":{"pid":28837,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66514944,"heapTotal":21610496,"heapUsed":13483560,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11549.34},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:27] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:27 GMT+0800 (Philippine Standard Time)","process":{"pid":28863,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66224128,"heapTotal":21086208,"heapUsed":13341992,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11549.91},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:27] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:27 GMT+0800 (Philippine Standard Time)","process":{"pid":28889,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66248704,"heapTotal":21872640,"heapUsed":13469184,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11550.33},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:28] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:28 GMT+0800 (Philippine Standard Time)","process":{"pid":28902,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":65896448,"heapTotal":21348352,"heapUsed":13310152,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11550.76},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:28] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:28 GMT+0800 (Philippine Standard Time)","process":{"pid":28913,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66392064,"heapTotal":21610496,"heapUsed":13583656,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11551.17},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:28] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:28 GMT+0800 (Philippine Standard Time)","process":{"pid":28925,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66891776,"heapTotal":21348352,"heapUsed":13357336,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11551.59},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:29] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:29 GMT+0800 (Philippine Standard Time)","process":{"pid":28938,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66527232,"heapTotal":21086208,"heapUsed":13454696,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11552},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:29] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:29 GMT+0800 (Philippine Standard Time)","process":{"pid":28949,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":67137536,"heapTotal":21610496,"heapUsed":13532576,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11552.42},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:30] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:30 GMT+0800 (Philippine Standard Time)","process":{"pid":28961,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66662400,"heapTotal":21610496,"heapUsed":13441328,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11552.85},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-26 22:18:30] [ERROR] uncaughtException: Unexpected token ')'
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14) {"error":{},"exception":true,"date":"Tue Aug 26 2025 22:18:30 GMT+0800 (Philippine Standard Time)","process":{"pid":28977,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/home/user/webapp/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":66695168,"heapTotal":21872640,"heapUsed":13531248,"external":2175917,"arrayBuffers":21326}},"os":{"loadavg":[0.44,0.2,0.07],"uptime":11553.29},"trace":[{"column":18,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1472,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1501,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/home/user/webapp/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":32,"file":"/home/user/webapp/src/routes/api.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\n/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)

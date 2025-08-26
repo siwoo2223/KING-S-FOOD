@@ -179,3 +179,169 @@
 [2025-08-26 22:10:42] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
 [2025-08-26 22:10:42] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
 [2025-08-26 22:10:42] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 22:18:26] [INFO] Received SIGINT. Starting graceful shutdown... {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T22:18:26: 🇵🇭 [2025-08-26 22:18:26] [32minfo[39m: Received SIGINT. Starting graceful shutdown...
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+/home/user/webapp/src/routes/api/korean-products.js:412
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1472:18)
+    at Module._compile (node:internal/modules/cjs/loader:1501:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/home/user/webapp/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 🇵🇭 Philippines E-Commerce Platform started!
+[2025-08-26 22:19:52] [INFO] 🇵🇭 Philippines E-Commerce Platform started! {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 🚀 Server running on port 3000
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 🌍 Environment: development
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: ⏰ Timezone: Asia/Manila
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 💱 Currency: PHP (₱)
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 📍 Health check: http://localhost:3000/health
+2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs
+[2025-08-26 22:19:52] [INFO] 🚀 Server running on port 3000 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 22:19:52] [INFO] 🌍 Environment: development {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 22:19:52] [INFO] ⏰ Timezone: Asia/Manila {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 22:19:52] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 22:19:52] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-26 22:19:52] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
