@@ -179,3 +179,414 @@ SyntaxError: Unexpected token ')'
     at Timeout.<anonymous> (/home/user/webapp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
     at listOnTimeout (node:internal/timers:581:17)
     at process.processTimers (node:internal/timers:519:7)
+[2025-08-27 10:47:22] [ERROR] [2fa3d483-3161-4be9-80b5-55a4102f6118] Application error
+[2025-08-27 10:47:22] [ERROR] [aa12372f-387f-4437-8e4e-c5c2141d74f4] Application error
+[2025-08-27 10:47:22] [ERROR] [7ff7a0e3-9a07-4f3d-9533-911feafdc40a] Application error
+[2025-08-27 10:47:22] [ERROR] [61847a51-87ed-47b8-9800-294f66929022] Application error
+[2025-08-27 10:47:22] [ERROR] [8ae91a44-f78e-44d1-9860-6b17d015864f] Application error
+[2025-08-27 10:47:22] [ERROR] [dda804e6-7564-47c7-a4c1-e42f26d9f491] Application error
+[2025-08-27 10:47:47] [ERROR] [c8b09fe7-246f-4da9-a6e9-d7b1681c33f2] Application error
+[2025-08-27 10:47:47] [ERROR] [7b67d670-cb1f-4a79-8a96-c8cec6c52fa1] Application error
+[2025-08-27 10:47:47] [ERROR] [89dc0d0d-95d5-4778-b26f-f105d32feefb] Application error
+[2025-08-27 10:47:47] [ERROR] [82b683de-1cb1-4789-9ec6-a04469cd66ec] Application error
+[2025-08-27 10:58:43] [ERROR] [ddcea822-0e43-4960-ba83-9778b75726e9] Application error
+[2025-08-27 10:58:43] [ERROR] [d09bb23e-39a0-486a-9bff-8873e6872509] Application error
+[2025-08-27 10:58:43] [ERROR] [ecdb7329-e49e-440e-bb18-3f882a3b019e] Application error
+[2025-08-27 10:58:44] [ERROR] [5e177433-5aca-48dd-b843-c31a7969196b] Application error
+2025-08-27T11:00:01: (node:6117) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:00:01: (node:6117) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:00:01: (node:6117) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:00:01: (node:6117) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:00:01: (node:6117) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-08-27T11:00:01: (node:6117) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+[2025-08-27 11:00:06] [ERROR] Database connection failed: connect ECONNREFUSED 127.0.0.1:27017 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","errorLabelSet":{},"reason":{"type":"Unknown","servers":{"localhost:27017":{"address":"localhost:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":4294896,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":null,"maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null},"cause":{"type":"Unknown","servers":{"localhost:27017":{"address":"localhost:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":4294896,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":null,"maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null},"timezone":"Asia/Manila"}\nMongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/user/webapp/node_modules/mongoose/lib/connection.js:1165:11)
+    at NativeConnection.openUri (/home/user/webapp/node_modules/mongoose/lib/connection.js:1096:11)
+    at async connectDatabase (/home/user/webapp/src/config/database.js:24:5)
+    at async PhilippinesECommerceApp.initializeDatabase (/home/user/webapp/src/app.js:166:7)
+    at async PhilippinesECommerceApp.start (/home/user/webapp/src/app.js:184:7)
+[2025-08-27 11:00:16] [ERROR] Seed data error: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nMongooseError: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/user/webapp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:18: (node:7579) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:18: (node:7579) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:18: (node:7579) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:18: (node:7579) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:20: (node:7591) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:20: (node:7591) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:20: (node:7591) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:20: (node:7591) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:21: (node:7604) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:21: (node:7604) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:21: (node:7604) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:21: (node:7604) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:22: (node:7616) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:22: (node:7616) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:22: (node:7616) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:22: (node:7616) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:24: (node:7628) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:24: (node:7628) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:24: (node:7628) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:24: (node:7628) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:25: (node:7641) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:25: (node:7641) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:25: (node:7641) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:25: (node:7641) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:27: (node:7653) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:27: (node:7653) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:27: (node:7653) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:27: (node:7653) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:28: (node:7666) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:28: (node:7666) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:28: (node:7666) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:28: (node:7666) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:29: (node:7678) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:29: (node:7678) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:29: (node:7678) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:29: (node:7678) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:31: (node:7690) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:31: (node:7690) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:31: (node:7690) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:31: (node:7690) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:45: (node:7724) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:45: (node:7724) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:45: (node:7724) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:45: (node:7724) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:46: (node:7737) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:46: (node:7737) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:46: (node:7737) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:46: (node:7737) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:48: (node:7749) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:48: (node:7749) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:48: (node:7749) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:48: (node:7749) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:49: (node:7761) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:49: (node:7761) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:49: (node:7761) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:49: (node:7761) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:51: (node:7774) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:51: (node:7774) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:51: (node:7774) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:51: (node:7774) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:52: (node:7786) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:52: (node:7786) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:52: (node:7786) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:52: (node:7786) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:54: (node:7799) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:54: (node:7799) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:54: (node:7799) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:54: (node:7799) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:55: (node:7811) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:55: (node:7811) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:55: (node:7811) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:55: (node:7811) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:57: (node:7824) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:57: (node:7824) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:57: (node:7824) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:57: (node:7824) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-27T11:19:58: (node:7839) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T11:19:58: (node:7839) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:58: (node:7839) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T11:19:58: (node:7839) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.

@@ -130,10 +130,6 @@ class PhilippinesECommerceApp {
 
     // API routes
     this.app.use('/api/v1', apiRoutes);
-    this.app.use('/api', apiRoutes);
-    
-    // Additional API routes
-    this.app.use('/api/reviews', require('./routes/api/reviews'));
     
     // Web routes (for admin panel and customer frontend)
     this.app.use('/', webRoutes);

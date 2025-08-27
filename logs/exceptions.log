@@ -298,3 +298,623 @@ SyntaxError: Unexpected token ')'
     at require (node:internal/modules/helpers:182:18)
     at Object.<anonymous> (/home/user/webapp/src/routes/api.js:63:32)
     at Module._compile (node:internal/modules/cjs/loader:1529:14)
+[2025-08-27 11:19:18] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:18 GMT+0800 (Philippine Standard Time)","process":{"pid":7579,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105463808,"heapTotal":51818496,"heapUsed":42355448,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.03,0.01,0],"uptime":5447.32},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:20] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:20 GMT+0800 (Philippine Standard Time)","process":{"pid":7591,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105254912,"heapTotal":52604928,"heapUsed":41572608,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.03,0.01,0],"uptime":5448.72},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:21] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:21 GMT+0800 (Philippine Standard Time)","process":{"pid":7604,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104128512,"heapTotal":51818496,"heapUsed":42681928,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.1,0.03,0.01],"uptime":5450.08},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:22] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:22 GMT+0800 (Philippine Standard Time)","process":{"pid":7616,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105066496,"heapTotal":51556352,"heapUsed":42019520,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.1,0.03,0.01],"uptime":5451.47},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:24] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:24 GMT+0800 (Philippine Standard Time)","process":{"pid":7628,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104951808,"heapTotal":51818496,"heapUsed":41478664,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.1,0.03,0.01],"uptime":5452.88},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:25] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:25 GMT+0800 (Philippine Standard Time)","process":{"pid":7641,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104890368,"heapTotal":51818496,"heapUsed":41350952,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.1,0.03,0.01],"uptime":5454.32},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:27] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:27 GMT+0800 (Philippine Standard Time)","process":{"pid":7653,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105431040,"heapTotal":52867072,"heapUsed":43151224,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.18,0.05,0.01],"uptime":5455.72},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:28] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:28 GMT+0800 (Philippine Standard Time)","process":{"pid":7666,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105775104,"heapTotal":51818496,"heapUsed":42468168,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.18,0.05,0.01],"uptime":5457.06},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:29] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:29 GMT+0800 (Philippine Standard Time)","process":{"pid":7678,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104660992,"heapTotal":51556352,"heapUsed":40669336,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.18,0.05,0.01],"uptime":5458.44},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:31] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:31 GMT+0800 (Philippine Standard Time)","process":{"pid":7690,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104800256,"heapTotal":52080640,"heapUsed":43445016,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.24,0.06,0.02],"uptime":5459.85},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:45] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:45 GMT+0800 (Philippine Standard Time)","process":{"pid":7724,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104460288,"heapTotal":50769920,"heapUsed":43191576,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.2,0.06,0.02],"uptime":5473.79},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:46] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:46 GMT+0800 (Philippine Standard Time)","process":{"pid":7737,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105062400,"heapTotal":52604928,"heapUsed":41866248,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.35,0.09,0.03],"uptime":5475.27},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:48] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:48 GMT+0800 (Philippine Standard Time)","process":{"pid":7749,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104230912,"heapTotal":51294208,"heapUsed":42331368,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.35,0.09,0.03],"uptime":5476.72},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:49] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:49 GMT+0800 (Philippine Standard Time)","process":{"pid":7761,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104210432,"heapTotal":51556352,"heapUsed":41703504,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.35,0.09,0.03],"uptime":5478.22},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:51] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:51 GMT+0800 (Philippine Standard Time)","process":{"pid":7774,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104509440,"heapTotal":51556352,"heapUsed":41637568,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.4,0.11,0.03],"uptime":5479.77},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:52] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:52 GMT+0800 (Philippine Standard Time)","process":{"pid":7786,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105054208,"heapTotal":52080640,"heapUsed":41658344,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.4,0.11,0.03],"uptime":5481.28},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:54] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:54 GMT+0800 (Philippine Standard Time)","process":{"pid":7799,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104312832,"heapTotal":51294208,"heapUsed":42295384,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.4,0.11,0.03],"uptime":5482.81},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:55] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:55 GMT+0800 (Philippine Standard Time)","process":{"pid":7811,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":106885120,"heapTotal":52080640,"heapUsed":40859584,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.4,0.11,0.03],"uptime":5484.29},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:57] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:57 GMT+0800 (Philippine Standard Time)","process":{"pid":7824,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":104939520,"heapTotal":52342784,"heapUsed":43398016,"external":24707430,"arrayBuffers":21416734}},"os":{"loadavg":[0.45,0.12,0.04],"uptime":5485.83},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+[2025-08-27 11:19:58] [ERROR] uncaughtException: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+Error: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/home/user/webapp/src/routes/api/reviews.js","/home/user/webapp/src/app.js"]},"exception":true,"date":"Wed Aug 27 2025 11:19:58 GMT+0800 (Philippine Standard Time)","process":{"pid":7839,"uid":1000,"gid":1000,"cwd":"/home/user/webapp","execPath":"/usr/bin/node","version":"v20.19.3","argv":["/usr/bin/node","/usr/lib/node_modules/pm2/lib/ProcessContainer.js"],"memoryUsage":{"rss":105672704,"heapTotal":51032064,"heapUsed":43088472,"external":24706301,"arrayBuffers":21416734}},"os":{"loadavg":[0.45,0.12,0.04],"uptime":5487.31},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1212,"method":"_resolveFilename","native":false},{"column":25,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":81,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":182,"method":null,"native":false},{"column":14,"file":"/home/user/webapp/src/routes/api/reviews.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1529,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1613,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1275,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1096,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1298,"method":"require","native":false},{"column":39,"file":"/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js","function":"Module.require","line":101,"method":"require","native":false}],"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nError: Cannot find module '../../middleware/auth'
+Require stack:
+- /home/user/webapp/src/routes/api/reviews.js
+- /home/user/webapp/src/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/user/webapp/src/routes/api/reviews.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
