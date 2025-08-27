@@ -93,3 +93,29 @@
 2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 💱 Currency: PHP (₱)
 2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 📍 Health check: http://localhost:3000/health
 2025-08-26T22:19:52: 🇵🇭 [2025-08-26 22:19:52] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [31merror[39m: Database connection failed: connect ECONNREFUSED 127.0.0.1:27017\nMongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/user/webapp/node_modules/mongoose/lib/connection.js:1165:11)
+    at NativeConnection.openUri (/home/user/webapp/node_modules/mongoose/lib/connection.js:1096:11)
+    at async connectDatabase (/home/user/webapp/src/config/database.js:24:5)
+    at async PhilippinesECommerceApp.initializeDatabase (/home/user/webapp/src/app.js:166:7)
+    at async PhilippinesECommerceApp.start (/home/user/webapp/src/app.js:184:7)
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [32minfo[39m: 🔧 Using development mode - some features may use mock data
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for users:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for wallets:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for wallettransactions:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for chargerequests:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for boxproducts:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for orders:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for orderitems:
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [31merror[39m: Seed data error: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms\nMongooseError: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/user/webapp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 📊 Database initialization completed
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 🇵🇭 Philippines E-Commerce Platform started!
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 🚀 Server running on port 3000
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 🌍 Environment: development
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: ⏰ Timezone: Asia/Manila
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 💱 Currency: PHP (₱)
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 📍 Health check: http://localhost:3000/health
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs

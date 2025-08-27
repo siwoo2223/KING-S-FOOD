@@ -68,4 +68,10 @@ router.use('/inventory', require('./api/inventory-upload'));
 // 이미지 처리 라우트
 router.use('/images', require('./api/image-scraper'));
 
+// 지갑 시스템 라우트
+router.use('/wallet', require('./api/wallet'));
+
+// 박스 상품 라우트
+router.use('/box-products', require('./api/box-products'));
+
 module.exports = router;

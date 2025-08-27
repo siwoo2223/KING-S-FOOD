@@ -17,6 +17,7 @@ const path = require('path');
 // Import configuration and utilities
 const config = require('./config/app');
 const logger = require('./utils/logger');
+const { connectDatabase, setupCollections } = require('./config/database');
 const { notFound, errorHandler } = require('./middleware/errorHandler');
 
 // Import routes
@@ -158,10 +159,30 @@ class PhilippinesECommerceApp {
   }
 
   /**
+   * Initialize database connection
+   */
+  async initializeDatabase() {
+    try {
+      await connectDatabase();
+      await setupCollections();
+      logger.info('📊 Database initialization completed');
+    } catch (error) {
+      logger.error('Database initialization failed:', error);
+      // 개발 환경에서는 계속 진행
+      if (this.environment !== 'development') {
+        process.exit(1);
+      }
+    }
+  }
+
+  /**
    * Start the server
    */
-  start() {
+  async start() {
     try {
+      // Initialize database first
+      await this.initializeDatabase();
+      
       this.server = this.app.listen(this.port, '0.0.0.0', () => {
         logger.info(`🇵🇭 Philippines E-Commerce Platform started!`);
         logger.info(`🚀 Server running on port ${this.port}`);
@@ -209,7 +230,10 @@ class PhilippinesECommerceApp {
 // Start the application
 if (require.main === module) {
   const app = new PhilippinesECommerceApp();
-  app.start();
+  app.start().catch(error => {
+    logger.error('Application startup failed:', error);
+    process.exit(1);
+  });
 }
 
 module.exports = PhilippinesECommerceApp;

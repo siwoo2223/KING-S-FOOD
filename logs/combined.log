@@ -345,3 +345,62 @@ SyntaxError: Unexpected token ')'
 [2025-08-26 22:19:52] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
 [2025-08-26 22:19:52] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
 [2025-08-26 22:19:52] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-27T10:03:09: (node:1882) [MONGOOSE] Warning: Duplicate schema index on {"phone":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-08-27T10:03:09: (node:1882) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T10:03:09: (node:1882) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T10:03:09: (node:1882) [MONGOOSE] Warning: Duplicate schema index on {"productId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+2025-08-27T10:03:09: (node:1882) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-08-27T10:03:09: (node:1882) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+[2025-08-27 10:03:14] [ERROR] Database connection failed: connect ECONNREFUSED 127.0.0.1:27017 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","errorLabelSet":{},"reason":{"type":"Unknown","servers":{"localhost:27017":{"address":"localhost:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":882465,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":null,"maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null},"cause":{"type":"Unknown","servers":{"localhost:27017":{"address":"localhost:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":882465,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":null,"maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null},"timezone":"Asia/Manila"}\nMongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/user/webapp/node_modules/mongoose/lib/connection.js:1165:11)
+    at NativeConnection.openUri (/home/user/webapp/node_modules/mongoose/lib/connection.js:1096:11)
+    at async connectDatabase (/home/user/webapp/src/config/database.js:24:5)
+    at async PhilippinesECommerceApp.initializeDatabase (/home/user/webapp/src/app.js:166:7)
+    at async PhilippinesECommerceApp.start (/home/user/webapp/src/app.js:184:7)
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [31merror[39m: Database connection failed: connect ECONNREFUSED 127.0.0.1:27017\nMongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/user/webapp/node_modules/mongoose/lib/connection.js:1165:11)
+    at NativeConnection.openUri (/home/user/webapp/node_modules/mongoose/lib/connection.js:1096:11)
+    at async connectDatabase (/home/user/webapp/src/config/database.js:24:5)
+    at async PhilippinesECommerceApp.initializeDatabase (/home/user/webapp/src/app.js:166:7)
+    at async PhilippinesECommerceApp.start (/home/user/webapp/src/app.js:184:7)
+[2025-08-27 10:03:14] [INFO] 🔧 Using development mode - some features may use mock data {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:14] [WARN] Collection setup warning for users: {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:14] [WARN] Collection setup warning for wallets: {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:14] [WARN] Collection setup warning for wallettransactions: {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:14] [WARN] Collection setup warning for chargerequests: {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:14] [WARN] Collection setup warning for boxproducts: {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:14] [WARN] Collection setup warning for orders: {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:14] [WARN] Collection setup warning for orderitems: {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [32minfo[39m: 🔧 Using development mode - some features may use mock data
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for users:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for wallets:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for wallettransactions:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for chargerequests:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for boxproducts:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for orders:
+2025-08-27T10:03:14: 🇵🇭 [2025-08-27 10:03:14] [33mwarn[39m: Collection setup warning for orderitems:
+[2025-08-27 10:03:24] [ERROR] Seed data error: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}\nMongooseError: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/user/webapp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [31merror[39m: Seed data error: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms\nMongooseError: Operation `boxproducts.countDocuments()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/user/webapp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-08-27 10:03:24] [INFO] 📊 Database initialization completed {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 📊 Database initialization completed
+[2025-08-27 10:03:24] [INFO] 🇵🇭 Philippines E-Commerce Platform started! {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 🇵🇭 Philippines E-Commerce Platform started!
+[2025-08-27 10:03:24] [INFO] 🚀 Server running on port 3000 {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:24] [INFO] 🌍 Environment: development {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:24] [INFO] ⏰ Timezone: Asia/Manila {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:24] [INFO] 💱 Currency: PHP (₱) {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:24] [INFO] 📍 Health check: http://localhost:3000/health {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+[2025-08-27 10:03:24] [INFO] 📚 API docs: http://localhost:3000/api/docs {"service":"philippines-ecommerce","version":"1.0.0","environment":"development","timezone":"Asia/Manila"}
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 🚀 Server running on port 3000
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 🌍 Environment: development
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: ⏰ Timezone: Asia/Manila
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 💱 Currency: PHP (₱)
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 📍 Health check: http://localhost:3000/health
+2025-08-27T10:03:24: 🇵🇭 [2025-08-27 10:03:24] [32minfo[39m: 📚 API docs: http://localhost:3000/api/docs
